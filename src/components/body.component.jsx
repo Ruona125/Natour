@@ -1,6 +1,6 @@
 import React from "react";
 import HeaderComponent from "./header.component";
-import "../styles/body.styles.css";
+import "../styles/body.styles.scss";
 
 const Body = () => {
   return (
