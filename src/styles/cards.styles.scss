@@ -5,7 +5,6 @@ $gutter-horizontal: 6rem;
 .row {
   max-width: $grid-width;
   margin: 0 auto; //this is used to center block element that's inside another block element
-  background-color: #eee;
 
   &:not(:last-child) {
     margin-bottom: $gutter-vertical;
@@ -18,7 +17,6 @@ $gutter-horizontal: 6rem;
   }
 
   [class^="col-"] {
-    background-color: orangered;
     float: left;
 
     &:not(:last-child) {
